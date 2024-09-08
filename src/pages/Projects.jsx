@@ -58,7 +58,7 @@ const Projects = () => {
               title="VoiceMate-Convertor"
               description="Built Speech To Text Converter using HTML, CSS, JAVASCRIPT, PYTHON FLASK.Nearly 20% people of the world are suffering from various disabilities, many of them are blind or unable to use their hands effectively with the help of my project they can share information with people by operating computer through voice input Programming.Our project is capable to recognize the speech and convert the input audio in to text, it also enables a user to perform operations such as open calculator, wordpad,notepad,log off computer."
               ghLink="https://github.com/anjali24srivastava/VoiceMate"
-              demoLink="https://buildbytes.netlify.app/"
+              demoLink="https://voicemate-convertor.netlify.app/"
             />
           </Col>
 
