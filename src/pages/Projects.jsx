@@ -8,6 +8,8 @@ import speech from "../assets/projects/speech.png";
 import gridlock from "../assets/projects/gridlock.jpeg";
 import jobboard from "../assets/projects/jobboard.jpeg";
 import quiz from "../assets/projects/quiz.jpeg"
+import amazon from "../assets/projects/amazon.jpg"
+import recipe from "../assets/projects/recipe.jpg"
 
 const Projects = () => {
   return (
@@ -21,6 +23,56 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={food}
+              isBlog={false}
+              title="Tasty Twists: Food Ordering Site"
+              description=" Developed a user-friendly food ordering website that streamlines the process of selecting, customizing, and purchasing meals. Implemented features for menu browsing, real-time order tracking, and secure payment processing. Designed an intuitive seamless navigation, and integrated backend systems to ensure efficient order management and customer satisfaction."
+              ghLink="https://github.com/anjali24srivastava/Dinner-Dive"
+              // demoLink=""
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jobboard}
+              isBlog={false}
+              title="Job Portal"
+              description="Developed a job portal website that connects job seekers with employers. Features include advanced search filters, job listings, application tracking, and user profiles. Designed for ease of navigation, it enables users to quickly find and apply for jobs, while employers can post opportunities and manage applications efficiently."
+              ghLink="https://github.com/anjali24srivastava/Job-Portal"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={recipe}
+              isBlog={false}
+              title="The Recipe Cloud"
+              description="The Recipe Cloud is a responsive recipe website built with HTML, CSS, and JavaScript, allowing users to explore and search a variety of veg and non-veg dishes. It features recipe cards with images and details, a keyword-based search bar, and a contact form, all wrapped in a clean, modern interface optimized for all devices."
+              ghLink="https://github.com/anjali24srivastava/The-Recipe-Cloud"
+              demoLink="https://the-recipe-cloud.netlify.app/"
+            />
+          </Col>
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dog}
+              isBlog={false}
+              title="Wagging-Tail : A Dog Blogging Website"
+              description="Wagging-Tail is a vibrant and engaging dog blogging website designed to connect dog lovers and pet owners. Built with a user-friendly interface, this platform offers a space for sharing heartwarming stories, expert advice on dog care, training tips, and product reviews. As the developer, I focused on creating a responsive, interactive site with features like blog post management, user comments, and social sharing integration.."
+              ghLink="https://github.com/anjali24srivastava/Wagging-Tail"
+              demoLink="https://wagging-tail.netlify.app/"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazon}
+              isBlog={false}
+              title="Amazon-Clone"
+              description="Responsive e-commerce website developed using HTML, CSS, and JavaScript. It replicates core functionalities of the real Amazon platform, including dynamic product listings, a keyword-based search bar, and an interactive shopping cart that updates in real-time. Users can browse a variety of items with images, prices, and ratings, all presented through clean product cards. The site also features a sticky navigation bar, smooth scrolling, hover effects, and a modern, mobile-friendly UI that ensures a seamless shopping experience across devices."
+              ghLink="https://github.com/anjali24srivastava/GridLock-G"
+              demoLink="https://amazon-clone-hc.netlify.app/"
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gridlock}
@@ -31,16 +83,7 @@ const Projects = () => {
               demoLink="https://mindgrid.netlify.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={dog}
-              isBlog={false}
-              title="Wagging-Tail : A Dog Blogging Website"
-              description="Wagging-Tail is a vibrant and engaging dog blogging website designed to connect dog lovers and pet owners. Built with a user-friendly interface, this platform offers a space for sharing heartwarming stories, expert advice on dog care, training tips, and product reviews. As the developer, I focused on creating a responsive, interactive site with features like blog post management, user comments, and social sharing integration.."
-              ghLink="https://github.com/anjali24srivastava/Wagging-Tail"
-              demoLink="https://wagging-tail.netlify.app/"
-            />
-          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={quiz}
@@ -62,26 +105,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={jobboard}
-              isBlog={false}
-              title="Job Portal"
-              description="Developed a job portal website that connects job seekers with employers. Features include advanced search filters, job listings, application tracking, and user profiles. Designed for ease of navigation, it enables users to quickly find and apply for jobs, while employers can post opportunities and manage applications efficiently."
-              ghLink="https://github.com/anjali24srivastava/Job-Portal"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={food}
-              isBlog={false}
-              title="Tasty Twists: Food Ordering Site"
-              description=" Developed a user-friendly food ordering website that streamlines the process of selecting, customizing, and purchasing meals. Implemented features for menu browsing, real-time order tracking, and secure payment processing. Designed an intuitive seamless navigation, and integrated backend systems to ensure efficient order management and customer satisfaction."
-              ghLink="https://github.com/anjali24srivastava/Dinner-Dive"
-              // demoLink=""
-            />
-          </Col>
 
           
         </Row>

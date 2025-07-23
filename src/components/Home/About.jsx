@@ -22,7 +22,7 @@ const About = () => {
                  and I'm from <span className="yellow"> Kanpur, UttarPradesh, India.</span>
                 <br />
                 <br />
-                I am currently a 4th-year undergraduate in the Computer Science and Engineering  at Pranveer Singh Institute of Technology, Kanpur.
+                I am completed my Graduation in the Computer Science and Engineering  at Pranveer Singh Institute of Technology, Kanpur .
                 <br />
                 <br />
                   As a
@@ -95,6 +95,7 @@ const About = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
+                  
                   
                 </ul>
               </Col>

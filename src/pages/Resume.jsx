@@ -17,7 +17,19 @@ import certificate10  from "../assets/certificate 10.png";
 import certificate11  from "../assets/certificate 11.png";
 import certificate12  from "../assets/certificate 12.png";
 import certificate13  from "../assets/certificate 13.png";
+import certificate14  from "../assets/certificate 14.png";
+import certificate15  from "../assets/certificate 15.jpg";
 const certificates = [
+  {
+    title: "Certificate 15",
+    link: certificate15,
+    image: certificate15,
+  },
+  {
+    title: "Certificate 14",
+    link: certificate14,
+    image: certificate14,
+  },
   {
     title: "Certificate 4",
     link: certificate4,
@@ -83,6 +95,7 @@ const certificates = [
     link: certificate13,
     image: certificate13,
   },
+  
   // Add more certificates as needed
 ];
 

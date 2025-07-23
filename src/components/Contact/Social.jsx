@@ -6,6 +6,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import './Social.css'
 
+import { SiLeetcode } from "react-icons/si";
 const Social = () => {
   return (
     <Container style={{padding: '30px'}}>
@@ -39,6 +40,7 @@ const Social = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
+                  
                   
                 </ul>
               </Col>
